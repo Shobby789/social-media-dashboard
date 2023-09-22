@@ -1,0 +1,77 @@
+.viewsCards {
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  width: 18%;
+  padding: 30px 10px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+}
+
+#lastBox {
+  width: 25%;
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30%;
+}
+
+.eyeIcon {
+  background-color: #6857d4;
+}
+
+.followIcon {
+  background-color: #22a6b3;
+}
+
+.followerIcon {
+  background-color: #1dd1a1;
+}
+
+.bookMarkIcon {
+  background-color: rgb(244, 50, 92);
+}
+
+.downBox {
+  background-color: white;
+  margin: 6px;
+  border-radius: 10px;
+}
+
+.downBox1 {
+  width: 27%;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.downBox2 {
+  width: 46%;
+  padding: 20px 0;
+}
+
+.downBox3 {
+  width: 27%;
+  padding: 50px 0;
+}
+
+.listBox {
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.listBox:hover {
+  background-color: rgb(231, 231, 231);
+  transition: 0.3s;
+}

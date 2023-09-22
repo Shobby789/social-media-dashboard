@@ -1,0 +1,36 @@
+.profile-page {
+  position: relative;
+  bottom: -50px;
+}
+
+.cover-photo {
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid silver; */
+  background-image: url("https://img6.fresherslive.com/latestnews/2023/06/most-handsome-man-in-bangladesh-649a8218be5a93649080-900.webp");
+  background-size: cover;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  position: relative;
+  top: -60px;
+  left: 70px;
+  z-index: 1000;
+  background-image: url("https://images.unsplash.com/photo-1600804889194-e6fbf08ddb39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80");
+  background-size: cover;
+}
+
+.profile-credentials {
+  /* border: 1px solid black; */
+  padding: 10px;
+  position: relative;
+  top: -140px;
+  width: 72%;
+  float: right;
+}
