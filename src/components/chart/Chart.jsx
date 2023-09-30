@@ -20,11 +20,11 @@ ChartJS.register(
 
 export default function Chart() {
   const data = {
-    labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+    labels: ["April", "May", "June", "July", "Aug", "Sep"],
     datasets: [
       {
-        label: "# of Likes",
-        data: [10, 20, 30, 40, 50, 60, 70, 80],
+        label: "No. of visits",
+        data: [100, 200, 300, 400, 500, 600, 700, 800],
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
           "rgba(54, 162, 235, 0.2)",

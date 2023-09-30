@@ -17,7 +17,8 @@ export default function Saved() {
     {
       title: "Shrimp and Chorizo Paella",
       sub_heading: "Twitter",
-      image: "https://ipcdigital.com/wp-content/uploads/2022/07/Technology.jpg",
+      image:
+        "https://img.freepik.com/premium-vector/twitter-social-media-realistic-tweet-mockup-design_539007-282.jpg?w=2000",
     },
     {
       title: "Shrimp and Chorizo Paella",

@@ -15,7 +15,8 @@ import SettingsApplicationsRoundedIcon from "@mui/icons-material/SettingsApplica
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import PersonIcon from "@mui/icons-material/Person";
-import { Avatar, Typography } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
+import { Avatar, IconButton, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 const drawerWidth = 240;
 
@@ -86,16 +87,16 @@ const Drawer = styled(MuiDrawer, {
 }));
 
 export default function MiniDrawer({ children }) {
-  // const theme = useTheme();
+  const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
-  // const handleDrawerOpen = () => {
-  //   setOpen(true);
-  // };
+  const handleDrawerOpen = () => {
+    setOpen(true);
+  };
 
-  // const handleDrawerClose = () => {
-  //   setOpen(false);
-  // };
+  const handleDrawerClose = () => {
+    setOpen(false);
+  };
 
   return (
     <Box sx={{ display: "flex" }}>
@@ -107,7 +108,7 @@ export default function MiniDrawer({ children }) {
         elevation={0}
       >
         <Toolbar>
-          {/* <IconButton
+          <IconButton
             color="black"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
@@ -118,7 +119,7 @@ export default function MiniDrawer({ children }) {
             }}
           >
             <MenuIcon />
-          </IconButton> */}
+          </IconButton>
           <Typography
             variant="body1"
             noWrap
@@ -131,9 +132,9 @@ export default function MiniDrawer({ children }) {
       </AppBar>
       <Drawer variant="permanent" open={open}>
         <DrawerHeader>
-          {/* <IconButton onClick={handleDrawerClose}>
+          <IconButton onClick={handleDrawerClose}>
             {theme.direction === "rtl" ? <MenuIcon /> : <MenuIcon />}
-          </IconButton> */}
+          </IconButton>
         </DrawerHeader>
         <nav aria-label="main mailbox folders">
           <List>

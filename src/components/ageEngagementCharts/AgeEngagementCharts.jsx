@@ -36,7 +36,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function AgeEngagementCharts() {
   const data = {
-    labels: ["Reactions", "Share", "Views"],
+    labels: ["Reactions", "Views", "Share"],
     datasets: [
       {
         label: "# of Votes",
@@ -48,7 +48,7 @@ export default function AgeEngagementCharts() {
     ],
   };
   const data2 = {
-    labels: ["Reactions", "Share", "Views"],
+    labels: ["Views", "Reactions", "Share"],
     datasets: [
       {
         label: "# of Votes",
@@ -86,17 +86,17 @@ export default function AgeEngagementCharts() {
             >
               <Box sx={{ display: "flex", mb: 2 }}>
                 <FiberManualRecordIcon sx={{ color: "#0c2461" }} />
-                <Typography>10-25</Typography>
+                {/* <Typography>10-25</Typography> */}
                 <Typography sx={{ ml: 2 }}>40%</Typography>
               </Box>
               <Box sx={{ display: "flex", mb: 2 }}>
                 <FiberManualRecordIcon sx={{ color: "#38ada9" }} />
-                <Typography>10-25</Typography>
+                {/* <Typography>10-25</Typography> */}
                 <Typography sx={{ ml: 2 }}>30%</Typography>
               </Box>
               <Box sx={{ display: "flex" }}>
                 <FiberManualRecordIcon sx={{ color: "#e55039" }} />
-                <Typography>10-25</Typography>
+                {/* <Typography>10-25</Typography> */}
                 <Typography sx={{ ml: 2 }}>30%</Typography>
               </Box>
             </Item>
@@ -123,17 +123,17 @@ export default function AgeEngagementCharts() {
             >
               <Box sx={{ display: "flex", mb: 2 }}>
                 <FiberManualRecordIcon sx={{ color: "#0c2461" }} />
-                <Typography>10-25</Typography>
-                <Typography sx={{ ml: 2 }}>40%</Typography>
+                {/* <Typography>10-25</Typography> */}
+                <Typography sx={{ ml: 2 }}>52%</Typography>
               </Box>
               <Box sx={{ display: "flex", mb: 2 }}>
                 <FiberManualRecordIcon sx={{ color: "#38ada9" }} />
-                <Typography>10-25</Typography>
-                <Typography sx={{ ml: 2 }}>30%</Typography>
+                {/* <Typography>10-25</Typography> */}
+                <Typography sx={{ ml: 2 }}>18%</Typography>
               </Box>
               <Box sx={{ display: "flex" }}>
                 <FiberManualRecordIcon sx={{ color: "#e55039" }} />
-                <Typography>10-25</Typography>
+                {/* <Typography>10-25</Typography> */}
                 <Typography sx={{ ml: 2 }}>30%</Typography>
               </Box>
             </Item>

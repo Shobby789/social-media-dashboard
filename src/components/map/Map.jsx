@@ -21,7 +21,7 @@ export default function Map() {
         >
           <AdjustRoundedIcon sx={{ mr: 1, color: "orange" }} />
           <Typography>Islamabad</Typography>
-          <Typography sx={{ ml: 7 }}>677</Typography>
+          <Typography sx={{ ml: 7 }}>18%</Typography>
         </Box>
         <Box
           sx={{
@@ -34,7 +34,7 @@ export default function Map() {
         >
           <AdjustRoundedIcon sx={{ mr: 1, color: "orange" }} />
           <Typography>Karachi</Typography>
-          <Typography sx={{ ml: 9.5 }}>677</Typography>
+          <Typography sx={{ ml: 9.5 }}>28%</Typography>
         </Box>
         <Box
           sx={{
@@ -47,7 +47,7 @@ export default function Map() {
         >
           <AdjustRoundedIcon sx={{ mr: 1, color: "orange" }} />
           <Typography>Lahore</Typography>
-          <Typography sx={{ ml: 10 }}>677</Typography>
+          <Typography sx={{ ml: 10 }}>27%</Typography>
         </Box>
         <Box
           sx={{
@@ -61,7 +61,7 @@ export default function Map() {
         >
           <AdjustRoundedIcon sx={{ mr: 1, color: "orange" }} />
           <Typography>Other</Typography>
-          <Typography sx={{ ml: 11.3 }}>677</Typography>
+          <Typography sx={{ ml: 11.3 }}>17%</Typography>
         </Box>
         <Box
           sx={{
@@ -79,7 +79,9 @@ export default function Map() {
               p: 2,
               color: "blue",
               fontWeight: "bold",
-              // "&hover":background:"",
+              "&:hover": {
+                backgroundColor: "lightBlue",
+              },
             }}
           >
             See Details

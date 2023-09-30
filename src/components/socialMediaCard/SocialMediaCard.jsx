@@ -33,23 +33,48 @@ export default function SocialMediaCard() {
                 <Typography>
                   <FacebookIcon sx={{ color: "#2980b9", fontSize: "30px" }} />
                 </Typography>
-                <Typography>1K Views</Typography>
+                <Typography sx={{ fontSize: "16px", color: "grey" }}>
+                  1K Views
+                </Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
-                <Typography variant="h6">4.2M</Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  1.2M
+                <Typography
+                  variant=""
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                  }}
+                >
+                  50K
                 </Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  2.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5,
+                  }}
+                >
+                  150K
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 4,
+                  }}
+                >
+                  2.5K
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
                 <Typography variant="body2">Followers</Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1.5 }}>
                   Reactions
                 </Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1 }}>
                   Comments
                 </Typography>
               </Box>
@@ -66,20 +91,42 @@ export default function SocialMediaCard() {
                 <Typography>1K Views</Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
-                <Typography variant="h6">4.2M</Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  1.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                  }}
+                >
+                  30K
                 </Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  2.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5.5,
+                  }}
+                >
+                  25K
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5,
+                  }}
+                >
+                  2K
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
                 <Typography variant="body2">Followers</Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1.7 }}>
                   Reactions
                 </Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1 }}>
                   Comments
                 </Typography>
               </Box>
@@ -96,20 +143,42 @@ export default function SocialMediaCard() {
                 <Typography>1K Views</Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
-                <Typography variant="h6">4.2M</Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                  }}
+                >
                   1.2M
                 </Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  2.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5,
+                  }}
+                >
+                  10K
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5,
+                  }}
+                >
+                  1500
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
                 <Typography variant="body2">Followers</Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 2.7 }}>
                   Reactions
                 </Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1 }}>
                   Comments
                 </Typography>
               </Box>
@@ -130,20 +199,42 @@ export default function SocialMediaCard() {
                 <Typography>1K Views</Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
-                <Typography variant="h6">4.2M</Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  1.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                  }}
+                >
+                  10K
                 </Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  2.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5.4,
+                  }}
+                >
+                  8K
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 6,
+                  }}
+                >
+                  1.2K
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
                 <Typography variant="body2">Followers</Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1.7 }}>
                   Reactions
                 </Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1 }}>
                   Comments
                 </Typography>
               </Box>
@@ -160,17 +251,39 @@ export default function SocialMediaCard() {
                 <Typography>1K Views</Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
-                <Typography variant="h6">4.2M</Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                  }}
+                >
+                  1.1M
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5,
+                  }}
+                >
                   1.2M
                 </Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  2.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5,
+                  }}
+                >
+                  10K
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
                 <Typography variant="body2">Followers</Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 2.7 }}>
                   Reactions
                 </Typography>
                 <Typography variant="body2" sx={{ ml: 2 }}>
@@ -190,20 +303,42 @@ export default function SocialMediaCard() {
                 <Typography>1K Views</Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
-                <Typography variant="h6">4.2M</Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                  }}
+                >
+                  1M
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5.8,
+                  }}
+                >
                   1.2M
                 </Typography>
-                <Typography sx={{ ml: 5 }} variant="h6">
-                  2.2M
+                <Typography
+                  sx={{
+                    fontSize: "17px",
+                    color: "#636e72",
+                    fontWeight: "600",
+                    ml: 5.5,
+                  }}
+                >
+                  12K
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", justifyContent: "" }}>
                 <Typography variant="body2">Followers</Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 1.7 }}>
                   Reactions
                 </Typography>
-                <Typography variant="body2" sx={{ ml: 2 }}>
+                <Typography variant="body2" sx={{ ml: 2.4 }}>
                   Comments
                 </Typography>
               </Box>
